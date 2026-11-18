@@ -1,0 +1,14 @@
+{
+  "name": "lora-n200",
+  "n_train": 200,
+  "epochs": 1,
+  "steps": 13,
+  "effective_batch": 16,
+  "lr": 0.0002,
+  "rank": 16,
+  "max_len": 320,
+  "trainable_params": 8798208,
+  "total_params": 502830976,
+  "train_seconds": 2104.5,
+  "dev_loss_before": 1.0203
+}

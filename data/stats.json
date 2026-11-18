@@ -1,0 +1,28 @@
+{
+  "train_raw": 4000,
+  "removed_overlap_with_test": 2,
+  "dev": {
+    "n": 200,
+    "no_entity": 89,
+    "entities": 207,
+    "truncated": 25,
+    "entity_not_in_text": 12,
+    "entity_not_in_text_untruncated": 5
+  },
+  "train": {
+    "n": 3790,
+    "no_entity": 1689,
+    "entities": 3743,
+    "truncated": 410,
+    "entity_not_in_text": 169,
+    "entity_not_in_text_untruncated": 94
+  },
+  "test": {
+    "n": 500,
+    "no_entity": 241,
+    "entities": 442,
+    "truncated": 53,
+    "entity_not_in_text": 17,
+    "entity_not_in_text_untruncated": 9
+  }
+}

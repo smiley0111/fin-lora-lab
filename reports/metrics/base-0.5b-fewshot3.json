@@ -1,0 +1,27 @@
+{
+  "n": 500,
+  "entity_precision": 0.275,
+  "entity_recall": 0.0249,
+  "entity_f1": 0.0456,
+  "exact_match": 0.456,
+  "detection_accuracy": 0.474,
+  "false_alarm_rate": 0.0871,
+  "miss_rate": 0.9344,
+  "hallucination_rate": 0.0,
+  "errors": {
+    "漏报": 242,
+    "正确": 228,
+    "误报": 21,
+    "找错了实体": 6,
+    "少找了实体": 2,
+    "实体边界不对": 1
+  },
+  "name": "base-0.5b-fewshot3",
+  "backend": "hf",
+  "model": "Qwen2.5-0.5B-Instruct",
+  "adapter": null,
+  "shots": 3,
+  "split": "test",
+  "seconds": 1647.6,
+  "seconds_per_sample": 3.295
+}

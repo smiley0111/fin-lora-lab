@@ -1,0 +1,44 @@
+{
+  "name": "ollama-3b-zeroshot",
+  "before": {
+    "n": 500,
+    "entity_precision": 0.5859,
+    "entity_recall": 0.5633,
+    "entity_f1": 0.5744,
+    "exact_match": 0.618,
+    "detection_accuracy": 0.898,
+    "false_alarm_rate": 0.1079,
+    "miss_rate": 0.0965,
+    "hallucination_rate": 0.0235,
+    "errors": {
+      "正确": 309,
+      "少找了实体": 48,
+      "实体边界不对": 41,
+      "误报": 26,
+      "漏报": 25,
+      "多找了实体": 21,
+      "找错了实体": 20,
+      "输出了原文没有的实体": 10
+    }
+  },
+  "after": {
+    "n": 500,
+    "entity_precision": 0.6,
+    "entity_recall": 0.5633,
+    "entity_f1": 0.5811,
+    "exact_match": 0.618,
+    "detection_accuracy": 0.892,
+    "false_alarm_rate": 0.1079,
+    "miss_rate": 0.1081,
+    "hallucination_rate": 0.0,
+    "errors": {
+      "正确": 309,
+      "少找了实体": 49,
+      "实体边界不对": 41,
+      "漏报": 28,
+      "误报": 26,
+      "找错了实体": 25,
+      "多找了实体": 22
+    }
+  }
+}

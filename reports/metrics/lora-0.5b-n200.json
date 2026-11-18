@@ -1,0 +1,29 @@
+{
+  "n": 500,
+  "entity_precision": 0.5209,
+  "entity_recall": 0.5068,
+  "entity_f1": 0.5138,
+  "exact_match": 0.55,
+  "detection_accuracy": 0.764,
+  "false_alarm_rate": 0.1328,
+  "miss_rate": 0.332,
+  "hallucination_rate": 0.0791,
+  "errors": {
+    "正确": 275,
+    "漏报": 86,
+    "实体边界不对": 34,
+    "误报": 32,
+    "多找了实体": 29,
+    "输出了原文没有的实体": 19,
+    "找错了实体": 14,
+    "少找了实体": 11
+  },
+  "name": "lora-0.5b-n200",
+  "backend": "hf",
+  "model": "Qwen2.5-0.5B-Instruct",
+  "adapter": "runs\\lora-n200\\adapter",
+  "shots": 0,
+  "split": "test",
+  "seconds": 1114.2,
+  "seconds_per_sample": 2.228
+}

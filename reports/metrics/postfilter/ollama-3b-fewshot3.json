@@ -1,0 +1,44 @@
+{
+  "name": "ollama-3b-fewshot3",
+  "before": {
+    "n": 500,
+    "entity_precision": 0.5676,
+    "entity_recall": 0.5701,
+    "entity_f1": 0.5688,
+    "exact_match": 0.612,
+    "detection_accuracy": 0.884,
+    "false_alarm_rate": 0.0498,
+    "miss_rate": 0.1776,
+    "hallucination_rate": 0.0225,
+    "errors": {
+      "正确": 306,
+      "漏报": 46,
+      "少找了实体": 40,
+      "多找了实体": 35,
+      "实体边界不对": 34,
+      "找错了实体": 18,
+      "误报": 12,
+      "输出了原文没有的实体": 9
+    }
+  },
+  "after": {
+    "n": 500,
+    "entity_precision": 0.5806,
+    "entity_recall": 0.5701,
+    "entity_f1": 0.5753,
+    "exact_match": 0.612,
+    "detection_accuracy": 0.88,
+    "false_alarm_rate": 0.0498,
+    "miss_rate": 0.1853,
+    "hallucination_rate": 0.0,
+    "errors": {
+      "正确": 306,
+      "漏报": 48,
+      "少找了实体": 41,
+      "多找了实体": 35,
+      "实体边界不对": 34,
+      "找错了实体": 24,
+      "误报": 12
+    }
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "name": "lora-0.5b-n800",
+  "before": {
+    "n": 500,
+    "entity_precision": 0.6791,
+    "entity_recall": 0.6176,
+    "entity_f1": 0.6469,
+    "exact_match": 0.656,
+    "detection_accuracy": 0.874,
+    "false_alarm_rate": 0.0415,
+    "miss_rate": 0.2046,
+    "hallucination_rate": 0.0522,
+    "errors": {
+      "正确": 328,
+      "漏报": 53,
+      "实体边界不对": 35,
+      "多找了实体": 27,
+      "输出了原文没有的实体": 19,
+      "找错了实体": 17,
+      "少找了实体": 11,
+      "误报": 10
+    }
+  },
+  "after": {
+    "n": 500,
+    "entity_precision": 0.7139,
+    "entity_recall": 0.6154,
+    "entity_f1": 0.661,
+    "exact_match": 0.678,
+    "detection_accuracy": 0.872,
+    "false_alarm_rate": 0.0415,
+    "miss_rate": 0.2085,
+    "hallucination_rate": 0.0,
+    "errors": {
+      "正确": 339,
+      "漏报": 54,
+      "实体边界不对": 36,
+      "多找了实体": 27,
+      "找错了实体": 19,
+      "少找了实体": 15,
+      "误报": 10
+    }
+  }
+}
